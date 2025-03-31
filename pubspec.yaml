@@ -1,10 +1,13 @@
 name: create_templates
-description: A sample command-line application with basic argument parsing.
+description: Генератор шаблонов для проектов на Dart
 version: 0.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
   sdk: ^3.6.0
+
+executables:
+  create_templates: bin/create_templates.dart
 
 # Add regular dependencies here.
 dependencies:

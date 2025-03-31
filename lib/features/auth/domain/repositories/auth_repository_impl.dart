@@ -1,1 +1,0 @@
-class AuthRepositoryImpl extends AuthRepository {}
