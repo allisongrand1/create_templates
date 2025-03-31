@@ -1,0 +1,1 @@
+class FeatureRepositoryImpl extends FeatureRepository {}

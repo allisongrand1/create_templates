@@ -1,0 +1,1 @@
+class FeatureDataSourceImpl extends FeatureDataSource {}

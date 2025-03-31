@@ -1,0 +1,1 @@
+class AuthDataSourceImpl extends AuthDataSource {}
