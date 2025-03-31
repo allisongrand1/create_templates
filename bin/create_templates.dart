@@ -4,7 +4,7 @@ import 'package:path/path.dart' as path;
 
 Future<void> main(List<String> args) async {
   if (args.length < 3) {
-    print('Использование: dart create_templates.dart <template_name> <target_path> <replace_name>');
+    print('Использование: create_templates <template_name> <target_path> <replace_name>');
     exit(1);
   }
 
