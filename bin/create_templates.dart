@@ -137,7 +137,7 @@ Future<void> copyDirectory(Directory source, Directory destination) async {
 
     if (entity is Directory) {
       var newDir = Directory(newPath);
-      await newDir.create();
+      await newDir.create(recursive: true);
       await copyDirectory(entity, newDir);
     } else if (entity is File) {
       await entity.copy(newPath);
