@@ -1,0 +1,7 @@
+name: feature
+description: Генерация фичи с BLoC и UI через Сlean Architecture
+author: Alina
+tags:
+  - bloc
+  - clean_architecture
+hidden: false

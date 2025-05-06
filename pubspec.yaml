@@ -1,6 +1,6 @@
 name: create_templates
 description: Генератор шаблонов для проектов на Dart
-version: 1.0.0
+version: 1.0.1
 # repository: https://github.com/my_org/my_repo
 
 environment:
@@ -13,6 +13,7 @@ executables:
 dependencies:
   args: ^2.5.0
   path: ^1.9.1
+  yaml: ^3.1.3
 
 dev_dependencies:
   lints: ^5.0.0
